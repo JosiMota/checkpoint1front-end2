@@ -21,7 +21,7 @@
     background-color: #f5f0f0;
 }
 .maravilha{
-    height: 485px;
+    height: 390px;
     width: 700px;
 }
 .formulario{
@@ -43,7 +43,7 @@
 }
 .form{
    width: 400px;
-   height: 400px;
+   height: 250px;
    align-items: center;
    padding: 90px;
    margin-top: 10px;
@@ -90,18 +90,34 @@
     right: 0;
 } 
 .rodape{
-    border: 2px solid gray;
+
     height: 90px;
-
-
 }
+.azul{
+    background-color: rgba(83, 188, 245, 0.79);
+    width: 100%;
+    height: 55px;
+}
+.verde{
+    
+    height: 43px;
+    background-color: rgb(164, 212, 106);
+}
+@keyframes pipe-animation {
+    from {
+        left: -80px;
+    }
 
-
-
-
-
-
-/* 
+    to {
+        left: 80%;
+    }
+}
+.personagem {
+    position: absolute;
+    margin-top: -27px;
+    width: 120px;
+    animation: pipe-animation 10s infinite;
+}
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
@@ -127,4 +143,4 @@
     .gender-input {
         margin-top: 0.5rem;
     }
-} */  
+} 
